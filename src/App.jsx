@@ -1,13 +1,17 @@
-// src/App.jsx
 import { Box, Heading, Button } from "@chakra-ui/react";
+import { useState } from "react";
 
-export default function App() {
+function App() {
+  const [count, setCount] = useState(0);
+
   return (
-    <Box textAlign="center" mt={20}>
-      <Heading color="teal.500">Hello Chakra UI 🚀</Heading>
-      <Button mt={4} colorScheme="teal">
-        Click Me
+    <Box textAlign="center" p={6}>
+      <Heading mb={4}>Hello Chakra UI!</Heading>
+      <Button colorScheme="teal" onClick={() => setCount(count + 1)}>
+        Count is {count}
       </Button>
     </Box>
   );
 }
+
+export default App;

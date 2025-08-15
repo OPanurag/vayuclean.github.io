@@ -7,37 +7,37 @@ const productList = [
     id: 'air-showers',
     title: 'Air Showers',
     desc: 'Decontamination chambers for personnel or materials.',
-    image: '/resources/products/air-shower.jpg',
+    image: '/resources/products/productsImages/air-shower.jpg',
   },
   {
     id: 'pass-boxes',
     title: 'Pass Boxes',
     desc: 'Static and dynamic pass boxes for contamination control.',
-    image: '/resources/products/pass-box.jpg',
+    image: '/resources/products/productsImages/pass-box.jpg',
   },
   {
     id: 'laminar-flow-units',
     title: 'Laminar Flow Units',
     desc: 'HEPA-filtered air systems for sterile conditions.',
-    image: '/resources/products/laminar-flow.jpg',
+    image: '/resources/products/productsImages/laminar-flow.jpg',
   },
   {
     id: 'modular-clean-rooms',
     title: 'Modular Clean Rooms',
     desc: 'Scalable, pre-fabricated cleanroom setups.',
-    image: '/resources/products/modular-cleanroom.jpg',
+    image: '/resources/products/productsImages/modular-cleanroom.jpg',
   },
   {
     id: 'bio-safety-cabinets',
     title: 'Bio Safety Cabinets',
     desc: 'Protect personnel, product, and environment.',
-    image: '/resources/products/biosafety-cabinet.jpg',
+    image: '/resources/products/productsImages/biosafety-cabinet.jpg',
   },
   {
     id: 'dispensing-booths',
     title: 'Dispensing Booths',
     desc: 'Containment systems for powder handling.',
-    image: '/resources/products/dispensing-booth.jpg',
+    image: '/resources/products/productsImages/dispensing-booth.jpg',
   },
 ];
 

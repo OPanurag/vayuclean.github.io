@@ -2,9 +2,10 @@ import React from 'react';
 
 const navLinks = [
   { name: 'Home', href: '/' },
-  { name: 'Services', href: '#services' },
-  { name: 'About', href: '#about' },
-  { name: 'Contact', href: '#contact' },
+  { name: 'About Us', href: '#about' },
+  { name: 'Products', href: '#products' },
+  { name: 'Team', href: '#team' },
+  { name: 'Contact Us', href: '#contact' },
 ];
 
 export default function Navbar() {

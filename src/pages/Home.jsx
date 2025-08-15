@@ -3,7 +3,7 @@ import Hero from '../components/Hero';
 
 export default function Home() {
   return (
-    <div className="pt-16"> {/* Offset height of fixed navbar */}
+    <div className="pt-0"> {/* Offset height of fixed navbar */}
       <Hero />
       {/* Additional sections like services, testimonials, etc. */}
       <section id="services" className="py-16 bg-white text-gray-900">

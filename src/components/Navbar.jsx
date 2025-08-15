@@ -15,7 +15,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="/" className="flex items-center space-x-2">
           <img
-            src="/images/logo.png"
+            src="/resources/logo.png"
             alt="VayuClean Technologies"
             className="h-20 w-auto -mt-4 drop-shadow-md"
           />

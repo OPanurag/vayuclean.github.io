@@ -3,7 +3,7 @@ import React from 'react';
 export default function Hero() {
   return (
     <section className="relative bg-cover bg-center text-white flex flex-col justify-center items-center" 
-    style={{ backgroundImage: "url('/images/hero-bg.jpg')", minHeight: '900px' }}>
+    style={{ backgroundImage: "url('/resources/hero-banner.jpg')", minHeight: '900px' }}>
 
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>

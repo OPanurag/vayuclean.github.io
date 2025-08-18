@@ -2,6 +2,7 @@ import React from 'react';
 
 export default function Hero({
   backgroundImage = '/resources/hero-banner.jpg',
+  backgroundColor = '', // new prop
   minHeight = '900px',
   children,
   showScroll = true,
@@ -10,7 +11,8 @@ export default function Hero({
     <section
       className="relative bg-cover bg-center text-white flex flex-col justify-center items-center"
       style={{
-        backgroundImage: `url('${backgroundImage}')`,
+        backgroundImage: backgroundImage ? `url('${backgroundImage}')` : 'none',
+        backgroundColor: backgroundImage ? '' : backgroundColor, // use color if no image
         minHeight,
       }}
     >

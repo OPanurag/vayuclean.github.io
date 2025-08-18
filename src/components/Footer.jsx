@@ -95,10 +95,10 @@ export default function Footer({
               <h2 className="text-xl font-bold mb-4">Work With Us</h2>
               <p className="text-sm text-gray-300">
                 We're hiring! <br />
-                Explore careers in production, sales, and engineering. <br />
+                Explore careers with Us. <br />
                 <br />
                 <strong>
-                  Send your CV @ <span className="font-medium">careers@vayuclean.com</span>
+                  Send your CV @ <span className="font-medium">info@vayucleantechnologies.com</span>
                 </strong>
               </p>
             </div>

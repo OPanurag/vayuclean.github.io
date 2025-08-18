@@ -5,7 +5,11 @@ export default function Home() {
   return (
     <div className="pt-0">
       {/* Custom Hero for Home page */}
-      <Hero backgroundImage="/resources/home-hero-banner.jpg" minHeight="900px">
+      <Hero 
+        backgroundImage="/resources/home-hero-banner.jpg" 
+        backgroundColor="#1a1a1a" // fallback color if no image
+        minHeight="900px"
+      >
         <h1
           className="text-6xl md:text-8xl font-bold mb-4"
           style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.8)' }}
